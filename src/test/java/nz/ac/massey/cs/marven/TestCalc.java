@@ -18,5 +18,11 @@ class TestCalc {
 	void test() {
 		assertTrue(special.add(a, b)==5);
 	}
+	
+	@Test
+	void test2() {
+		assertTrue(special.substract(a, b)==1);
+	}
+	
 
 }
