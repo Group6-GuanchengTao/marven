@@ -13,7 +13,9 @@ class TestCalc {
 	static void setUpBeforeClass() throws Exception {
 		
 	}
-
+    
+	
+	
 	@Test
 	void test() {
 		assertTrue(special.add(a, b)==5);
@@ -23,6 +25,7 @@ class TestCalc {
 	void test2() {
 		assertTrue(special.substract(a, b)==1);
 	}
+	
 	
 
 }

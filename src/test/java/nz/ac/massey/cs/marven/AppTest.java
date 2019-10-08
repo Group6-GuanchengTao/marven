@@ -1,5 +1,7 @@
 package nz.ac.massey.cs.marven;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -10,6 +12,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
+
     /**
      * Create the test case
      *
@@ -32,7 +35,12 @@ public class AppTest
      * Rigourous Test :-)
      */
     public void testApp()
-    {
-        assertTrue( true );
+    {   
+    	Calc special =new Calc();
+    	int a=3;
+    	int b=2;
+        assertTrue(special.add(a, b)==5);
+        assertTrue(special.substract(a, b)==5);
     }
+	
 }
